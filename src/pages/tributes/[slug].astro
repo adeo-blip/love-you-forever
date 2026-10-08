@@ -21,7 +21,6 @@ const ld = {
   mainEntityOfPage: url,
   author: { '@type': 'Person', name: 'Adeo Patapo' },
   publisher: { '@type': 'Organization', name: 'Patapo AI' },
-  citation: t.sources.map((s) => s.url),
 };
 ---
 <Base title={title} description={description} path={`/tributes/${t.slug}/`} type="article" jsonLd={ld} datePublished={t.day}>
@@ -37,7 +36,7 @@ const ld = {
     <AdSlot slot={import.meta.env.PUBLIC_ADSENSE_SLOT_ARTICLE ?? ''} />
     <div class="sources">
       <strong>Sources for these details</strong>
-      <ul>{t.sources.map((s) => <li><a href={s.url} rel="noopener nofollow" target="_blank">{s.label}</a></li>)}</ul>
+      <ul>{t.sources.map((s) => <li>{s.label}</li>)}</ul>
       <p>Know something about her, or want to correct or remove this page? <a href="/corrections/">Write to us</a>. Family requests are answered first.</p>
     </div>
   </article>

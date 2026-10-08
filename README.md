@@ -11,7 +11,7 @@ Create `src/data/days/YYYY-MM-DD.json` (copy the structure of an existing file).
 - Never name, hint at or blame any suspect, driver or investigation. No photos or news screenshots.
 - Unnamed women stay unnamed ("A woman from <town>"). Never give street addresses.
 - If nothing positive is documented, keep the tribute to name, age, town, and the generic dedication.
-- Every entry lists its sources. Remove any page on a clear request from a relative within 48 hours.
+- Every entry lists its sources (JSON keeps label + url for the editor's records; the site shows only the labels, not links, by owner's decision). Remove any page on a clear request from a relative within 48 hours.
 
 ## Build
 ```

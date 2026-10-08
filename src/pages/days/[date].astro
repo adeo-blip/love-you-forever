@@ -21,7 +21,7 @@ const description = `${d.women.length} women remembered with love on ${longDate(
         {w.tribute.map((p) => <p>{p}</p>)}
         {w.example && <div class="example"><strong>Her example to the world.</strong> {w.example}</div>}
         <p class="dedication">{dedication(w.name)}</p>
-        <p class="sources">Sources: {w.sources.map((s, i) => <><a href={s.url} rel="noopener nofollow" target="_blank">{s.label}</a>{i < w.sources.length - 1 ? ' · ' : ''}</>)}</p>
+        <p class="sources">Sources: {w.sources.map((s) => s.label).join(' · ')}</p>
       </section>
     ))}
     <div class="help"><strong>If you need help.</strong> Women experiencing violence or stalking in Italy can call 1522 (free, 24 hours). In an emergency, call 112.</div>
