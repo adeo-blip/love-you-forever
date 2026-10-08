@@ -1,0 +1,84 @@
+---
+import '../styles/global.css';
+const { title, description, path = Astro.url.pathname, type = 'website', jsonLd = null, datePublished = null, noindex = false } = Astro.props;
+const site = 'https://love-you-forever.libanje.com';
+const canonical = new URL(path, site).href;
+const fullTitle = title === 'Love You Forever' ? title : `${title} | Love You Forever`;
+const adClient = import.meta.env.PUBLIC_ADSENSE_CLIENT || '';
+const baseLd = jsonLd ?? { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Love You Forever', url: site, inLanguage: 'en' };
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="alternate" type="application/rss+xml" title="Love You Forever" href="/rss.xml" />
+  {noindex && <meta name="robots" content="noindex" />}
+  <meta property="og:site_name" content="Love You Forever" />
+  <meta property="og:type" content={type} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta name="twitter:card" content="summary" />
+  {datePublished && <meta property="article:published_time" content={datePublished} />}
+  <script type="application/ld+json" set:html={JSON.stringify(baseLd)} />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site">
+    <div class="wrap wide">
+      <a class="brand" href="/">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 50C14 37 12 24 20 18c5-4 10-1 12 3 2-4 7-7 12-3 8 6 6 19-12 32z" fill="#b5483a"/></svg>
+        Love You Forever
+      </a>
+      <nav aria-label="Main">
+        <a href="/">Home</a>
+        <a href="/days/">Archive</a>
+        <a href="/about/">About</a>
+        <a href="/corrections/">Corrections</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main"><slot /></main>
+  <footer class="site">
+    <div class="wrap wide">
+      <p>Love You Forever is a daily memorial by Adeo Patapo, Patapo AI. Every tribute is built from published sources and can be corrected or removed on request.</p>
+      <p><a href="/about/">About</a> · <a href="/corrections/">Corrections and removal</a> · <a href="/privacy/">Privacy and cookies</a> · <a href="/contact/">Contact</a> · <a href="/rss.xml">RSS</a></p>
+      <p>If you are a woman experiencing violence or stalking in Italy, call 1522 (free, 24 hours). In an emergency, call 112.</p>
+    </div>
+  </footer>
+  <div id="consent" hidden role="dialog" aria-label="Cookie choices">
+    <div class="inner">
+      <p>This site works without cookies. If advertising is switched on, Google may use cookies to show ads. You can say no and still read everything. <a href="/privacy/">Details</a></p>
+      <button class="btn" id="consent-no" type="button">No thanks</button>
+      <button class="btn primary" id="consent-yes" type="button">Allow ads</button>
+    </div>
+  </div>
+  <script is:inline define:vars={{ adClient }}>
+    (function(){
+      var KEY='lyf-consent', choice=null;
+      try{choice=localStorage.getItem(KEY)}catch(e){}
+      var box=document.getElementById('consent');
+      function loadAds(){
+        if(!adClient) return;
+        var slots=document.querySelectorAll('.adslot');
+        if(!slots.length) return;
+        var s=document.createElement('script');
+        s.async=true; s.crossOrigin='anonymous';
+        s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client='+encodeURIComponent(adClient);
+        document.head.appendChild(s);
+        slots.forEach(function(el){el.hidden=false;(window.adsbygoogle=window.adsbygoogle||[]).push({});});
+      }
+      function set(v){try{localStorage.setItem(KEY,v)}catch(e){} box.hidden=true; if(v==='yes') loadAds();}
+      if(choice==='yes'){loadAds();}
+      else if(choice!=='no' && adClient){box.hidden=false;}
+      document.getElementById('consent-yes').onclick=function(){set('yes')};
+      document.getElementById('consent-no').onclick=function(){set('no')};
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+---
+// Ad slot. It renders nothing until PUBLIC_ADSENSE_CLIENT is set (after Google approves the site)
+// and the visitor has accepted advertising cookies in the consent banner.
+const { slot = '' } = Astro.props;
+const client = import.meta.env.PUBLIC_ADSENSE_CLIENT;
+---
+{client && slot && (
+  <aside class="adslot" data-ad-slot={slot} hidden aria-label="Advertisement">
+    <div class="adlabel">Advertisement</div>
+    <ins class="adsbygoogle" style="display:block" data-ad-client={client} data-ad-slot={slot} data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </aside>
+)}

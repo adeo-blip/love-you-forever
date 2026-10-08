@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { tributes, dedication, longDate } from '../../data/site.js';
+
+export function getStaticPaths() {
+  return tributes.map((t) => ({ params: { slug: t.slug }, props: { t } }));
+}
+const { t } = Astro.props;
+const title = `${t.name}, ${t.age}: a tribute from ${t.town}`;
+const description = `A tribute to ${t.name}, ${t.age}, of ${t.town}, ${t.region}. Remembered with love, using only published sources.`;
+const url = `https://love-you-forever.libanje.com/tributes/${t.slug}/`;
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description,
+  inLanguage: 'en',
+  datePublished: t.day,
+  dateModified: t.day,
+  mainEntityOfPage: url,
+  author: { '@type': 'Person', name: 'Adeo Patapo' },
+  publisher: { '@type': 'Organization', name: 'Patapo AI' },
+  citation: t.sources.map((s) => s.url),
+};
+---
+<Base title={title} description={description} path={`/tributes/${t.slug}/`} type="article" jsonLd={ld} datePublished={t.day}>
+  <article class="wrap">
+    <p class="meta"><a href="/">Home</a> · <a href={`/days/${t.day}/`}>{longDate(t.day)}</a></p>
+    <h1>{t.name}</h1>
+    <p class="meta">{t.age} · {t.town}, {t.region} · Remembered on {longDate(t.day)}</p>
+    {t.tribute.map((p) => <p>{p}</p>)}
+    {t.example && (
+      <div class="example"><strong>Her example to the world.</strong> {t.example}</div>
+    )}
+    <p class="dedication">{dedication(t.name)}</p>
+    <AdSlot slot={import.meta.env.PUBLIC_ADSENSE_SLOT_ARTICLE ?? ''} />
+    <div class="sources">
+      <strong>Sources for these details</strong>
+      <ul>{t.sources.map((s) => <li><a href={s.url} rel="noopener nofollow" target="_blank">{s.label}</a></li>)}</ul>
+      <p>Know something about her, or want to correct or remove this page? <a href="/corrections/">Write to us</a>. Family requests are answered first.</p>
+    </div>
+  </article>
+</Base>

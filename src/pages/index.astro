@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { days, longDate } from '../data/site.js';
+const latest = days[0];
+const older = days.slice(1, 8);
+---
+<Base
+  title="Love You Forever"
+  description="A daily memorial for women across Italy. Short, respectful tributes built from published sources, honouring the life and example of each woman."
+  path="/"
+>
+  <div class="wrap wide">
+    <section class="hero">
+      <h1>Love You Forever</h1>
+      <p class="lede">A daily memorial for women across Italy. We remember each one by name, with care, and let her example reach the world.</p>
+    </section>
+
+    <h2>{latest.title} <span class="meta">· {longDate(latest.date)}</span></h2>
+    <p>{latest.intro}</p>
+    <div class="cards">
+      {latest.women.map((w) => (
+        <article class="card">
+          <h3><a href={`/tributes/${w.slug}/`}>{w.name}</a></h3>
+          <p class="meta">{w.age} · {w.town}, {w.region}</p>
+          <p>{w.tribute[0].length > 150 ? w.tribute[0].slice(0, 147).replace(/\s+\S*$/, '') + '…' : w.tribute[0]}</p>
+        </article>
+      ))}
+    </div>
+    <p><a href={`/days/${latest.date}/`}>Read the full page for {longDate(latest.date)} →</a></p>
+
+    <AdSlot slot={import.meta.env.PUBLIC_ADSENSE_SLOT_HOME ?? ''} />
+
+    {older.length > 0 && (
+      <>
+        <h2>Earlier days</h2>
+        <ul>
+          {older.map((d) => <li><a href={`/days/${d.date}/`}>{longDate(d.date)}: {d.title}</a></li>)}
+        </ul>
+      </>
+    )}
+    <div class="help">
+      <strong>If you need help.</strong> If you are a woman experiencing violence or stalking in Italy, call 1522. It is free, open 24 hours a day and available in several languages, including English. In an emergency, call 112.
+    </div>
+  </div>
+</Base>

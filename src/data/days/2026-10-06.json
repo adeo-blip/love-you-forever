@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-06",
+  "title": "Eight women we remember with love",
+  "intro": "Today we remember eight women from across Italy. Each tribute uses only what trusted sources have shared about her life. Where little is known, we say so with respect and keep her name in the light.",
+  "women": [
+    {
+      "slug": "tatiana-aggio-fontaniva",
+      "name": "Tatiana Aggio",
+      "age": 54,
+      "town": "Fontaniva",
+      "region": "Veneto",
+      "tribute": [
+        "Tatiana Aggio, 54, lived in Fontaniva, in the province of Padua. She was the director of the post office in San Pietro in Gu, where her colleagues knew her as a respected professional.",
+        "Friends say she loved music and long walks in the mountains. She was also an expert in mushrooms, a mycologist.",
+        "She is loved by her two children, her parents and her partner."
+      ],
+      "example": "A life shared between work, music and the mountains: curiosity, patience and joy in the small things.",
+      "sources": [
+        {
+          "label": "Nordest24 (Italian)",
+          "url": "https://www.nordest24.it/direttrice-poste-san-pietro-in-gu"
+        },
+        {
+          "label": "Il Mattino di Padova (Italian)",
+          "url": "https://www.mattinopadova.it/cronaca/morta-direttrice-poste-san-pietro-in-gu-cosa-e-successo-qboulrv3"
+        }
+      ]
+    },
+    {
+      "slug": "felicia-cettina-antonino-bisceglie",
+      "name": "Felicia \"Cettina\" Antonino",
+      "age": 79,
+      "town": "Bisceglie",
+      "region": "Puglia",
+      "tribute": [
+        "Everyone in Bisceglie called her Cettina. For many years she taught mathematics, and local media say she also worked on a local newspaper.",
+        "Many of her former students remember her, and so do her friends. Bisceglie keeps her in its thoughts."
+      ],
+      "example": "A teacher's work lives on in every student who remembers her. Cettina shows how one patient teacher can stay in a whole town's memory.",
+      "sources": [
+        {
+          "label": "Bisceglie News24 (Italian)",
+          "url": "https://bisceglie.news24.city/2026/10/05/investe-e-uccide-lex-docente-felicia-antonino-arrestato-il-48enne-e-risultato-positivo-alla-cocaina/"
+        },
+        {
+          "label": "La Gazzetta del Mezzogiorno (Italian)",
+          "url": "https://www.lagazzettadelmezzogiorno.it/news/bat/2158569/travolge-con-l-auto-e-uccide-la-79enne-cettina-antonino-poi-fugge-era-sotto-effetto-della-cocaina-il-48enne-arrestato-a-bisceglie.html"
+        }
+      ]
+    },
+    {
+      "slug": "gabriella-rosa-garlate",
+      "name": "Gabriella Rosa",
+      "age": 74,
+      "town": "Garlate",
+      "region": "Lombardy",
+      "tribute": [
+        "Gabriella Rosa, 74, lived in Garlate, in the province of Lecco. She volunteered for the \"Piedibus\", the walking school bus, and helped the children of her town reach school safely.",
+        "Her community remembers her as a kind grandmother who looked after others, children and friends alike."
+      ],
+      "example": "Care for others in small daily acts: she volunteered so that other people's children could walk to school with confidence.",
+      "sources": [
+        {
+          "label": "Il Giorno (Italian)",
+          "url": "https://www.ilgiorno.it/lecco/cronaca/garlate-morta-gabriella-rosa-t1246clm"
+        }
+      ]
+    },
+    {
+      "slug": "maria-rosaria-marasco-milan",
+      "name": "Maria Rosaria Marasco",
+      "age": 73,
+      "town": "Milan",
+      "region": "Lombardy",
+      "tribute": [
+        "Maria Rosaria Marasco, 73, was born in Torre Annunziata, near Naples, and made her home in Milan, in the Niguarda area.",
+        "Her hometown of Torre Annunziata is holding her in its thoughts."
+      ],
+      "sources": [
+        {
+          "label": "Il Mattino (Italian)",
+          "url": "https://www.ilmattino.it/napoli/area_metropolitana/milano_donna_di_73_anni_muore_nell_incendio_casa_la_vittima_originaria_di_torre_annunziata-9805005.html"
+        },
+        {
+          "label": "Fanpage.it (Italian)",
+          "url": "https://www.fanpage.it/milano/incendio-in-casa-a-milano-e-morta-maria-rosaria-marasco-si-indaga-sulle-bombole/"
+        }
+      ]
+    },
+    {
+      "slug": "milva-gasco-mondovi",
+      "name": "Milva Gasco",
+      "age": 65,
+      "town": "Mondovì",
+      "region": "Piedmont",
+      "tribute": [
+        "Milva Gasco was born in 1961. She was retired and lived in Breolungi, a small district of Mondovì, in the province of Cuneo.",
+        "Her town keeps her name in its thoughts."
+      ],
+      "sources": [
+        {
+          "label": "Targatocn (Italian)",
+          "url": "https://www.targatocn.it/2026/10/05/leggi-notizia/argomenti/cronaca-1/articolo/dramma-a-mondovi-donna-di-65-anni-investita-da-un-pulmino-in-via-torino-morta-in-ospedale-1.html"
+        }
+      ]
+    },
+    {
+      "slug": "antonella-manca-sassari",
+      "name": "Antonella Manca",
+      "age": 54,
+      "town": "Ittiri area",
+      "region": "Sardinia",
+      "tribute": [
+        "Antonella Manca, 54, lived in the Ittiri area, in the province of Sassari, Sardinia.",
+        "Her community holds her in its thoughts today."
+      ],
+      "sources": [
+        {
+          "label": "L'Unione Sarda (Italian)",
+          "url": "https://www.unionesarda.it/news-sardegna/sassari-provincia/tragedia-sulla-strada-per-ittiri-muore-una-donna-sassarese-ry8xhnvt"
+        }
+      ]
+    },
+    {
+      "slug": "a-mother-from-pescara",
+      "name": "A mother from Pescara",
+      "age": 71,
+      "town": "Pescara",
+      "region": "Abruzzo",
+      "tribute": [
+        "A woman of 71 from Pescara, in Abruzzo. Her name has not been widely published, and we respect that.",
+        "She was the mother of a driver with the regional bus company TUA. Her family is in our thoughts."
+      ],
+      "sources": [
+        {
+          "label": "Il Centro (Italian)",
+          "url": "https://www.ilcentro.it/pescara/muore-donna-al-terminal-del-bus-la-rabbia-dei-sindacati-quellarea-abbandonata-ignorate-tutte-le-denunce-xlc0lq78"
+        }
+      ]
+    },
+    {
+      "slug": "a-woman-from-avezzano",
+      "name": "A woman from Avezzano",
+      "age": 64,
+      "town": "Avezzano",
+      "region": "Abruzzo",
+      "tribute": [
+        "A woman of 64 from the centre of Avezzano, in the province of L'Aquila. Her name has not been published, and we respect that.",
+        "She shared her home with her mother and her brother. Her family is in our thoughts."
+      ],
+      "sources": [
+        {
+          "label": "Rete8 (Italian)",
+          "url": "https://www.rete8.it/cronaca/avezzano-donna-di-64-anni-cade-dal-balcone-e-muore-in-strada/"
+        }
+      ]
+    }
+  ]
+}

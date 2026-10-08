@@ -1,0 +1,12 @@
+---
+import Base from '../../layouts/Base.astro';
+import { days, longDate } from '../../data/site.js';
+---
+<Base title="Archive" description="Every daily tribute page on Love You Forever, newest first." path="/days/">
+  <div class="wrap">
+    <h1>Archive</h1>
+    <ul>
+      {days.map((d) => <li><a href={`/days/${d.date}/`}>{longDate(d.date)}</a>: {d.title} ({d.women.length} women)</li>)}
+    </ul>
+  </div>
+</Base>
