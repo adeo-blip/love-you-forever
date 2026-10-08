@@ -16,31 +16,59 @@ const older = days.slice(1, 8);
       <p class="lede">A daily memorial for women across Italy. We remember each one by name, with care, and let her example reach the world.</p>
     </section>
 
-    <h2>{latest.title} <span class="meta">· {longDate(latest.date)}</span></h2>
-    <p>{latest.intro}</p>
-    <div class="cards">
-      {latest.women.map((w) => (
-        <article class="card">
-          <h3><a href={`/tributes/${w.slug}/`}>{w.name}</a></h3>
-          <p class="meta">{w.age} · {w.town}, {w.region}</p>
-          <p>{w.tribute[0].length > 150 ? w.tribute[0].slice(0, 147).replace(/\s+\S*$/, '') + '…' : w.tribute[0]}</p>
-        </article>
-      ))}
-    </div>
-    <p><a href={`/days/${latest.date}/`}>Read the full page for {longDate(latest.date)} →</a></p>
+    <div class="home">
+      <div>
+        <h2 style="margin-top:0">{latest.title} <span class="meta">· {longDate(latest.date)}</span></h2>
+        <p>{latest.intro}</p>
 
-    <AdSlot slot={import.meta.env.PUBLIC_ADSENSE_SLOT_HOME ?? ''} />
+        {latest.women.length <= 3 ? (
+          latest.women.map((w) => (
+            <article class="feature">
+              <div class="meta-col">
+                <h3><a href={`/tributes/${w.slug}/`}>{w.name}</a></h3>
+                <p class="meta">{w.age} · {w.town}, {w.region}</p>
+                <p><a href={`/tributes/${w.slug}/`}>Her page →</a></p>
+              </div>
+              <div class="body">
+                {w.tribute.map((p) => <p>{p}</p>)}
+                {w.example && <div class="example"><strong>Her example to the world.</strong> {w.example}</div>}
+              </div>
+            </article>
+          ))
+        ) : (
+          <div class="cards">
+            {latest.women.map((w) => (
+              <article class="card">
+                <h3><a href={`/tributes/${w.slug}/`}>{w.name}</a></h3>
+                <p class="meta">{w.age} · {w.town}, {w.region}</p>
+                <p>{w.tribute[0].length > 150 ? w.tribute[0].slice(0, 147).replace(/\s+\S*$/, '') + '…' : w.tribute[0]}</p>
+              </article>
+            ))}
+          </div>
+        )}
+        <p><a href={`/days/${latest.date}/`}>Read the full page for {longDate(latest.date)} →</a></p>
 
-    {older.length > 0 && (
-      <>
-        <h2>Earlier days</h2>
-        <ul>
-          {older.map((d) => <li><a href={`/days/${d.date}/`}>{longDate(d.date)}: {d.title}</a></li>)}
-        </ul>
-      </>
-    )}
-    <div class="help">
-      <strong>If you need help.</strong> If you are a woman experiencing violence or stalking in Italy, call 1522. It is free, open 24 hours a day and available in several languages, including English. In an emergency, call 112.
+        <AdSlot slot={import.meta.env.PUBLIC_ADSENSE_SLOT_HOME ?? ''} />
+      </div>
+
+      <aside aria-label="About and archive">
+        <div class="card">
+          <h2>About this place</h2>
+          <p class="meta" style="font-size:.9rem">Every day we give each woman a calm page of her own, written only from what published sources say about her life. <a href="/about/">How we write</a>.</p>
+        </div>
+        {older.length > 0 && (
+          <div class="card">
+            <h2>Earlier days</h2>
+            <ul>
+              {older.map((d) => <li><a href={`/days/${d.date}/`}>{longDate(d.date)}</a> · {d.women.length === 1 ? '1 woman' : `${d.women.length} women`}</li>)}
+            </ul>
+            <p style="margin:.4rem 0 0"><a href="/days/">Full archive →</a></p>
+          </div>
+        )}
+        <div class="help">
+          <strong>If you need help.</strong> If you are a woman experiencing violence or stalking in Italy, call 1522. It is free, open 24 hours a day and available in several languages, including English. In an emergency, call 112.
+        </div>
+      </aside>
     </div>
   </div>
 </Base>
