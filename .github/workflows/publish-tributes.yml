@@ -66,6 +66,15 @@ jobs:
         if: steps.merge.outcome == 'success'
         run: git push origin HEAD:main
 
+      - name: Close the draft notices
+        if: steps.merge.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for n in $(gh issue list --state open --search "New tributes on draft in:title" --json number --jq '.[].number'); do
+            gh issue close "$n" --comment "Published."
+          done
+
       - name: Open an issue if something blocked publishing
         if: failure() || (steps.diff.outputs.other == 'yes')
         env:
