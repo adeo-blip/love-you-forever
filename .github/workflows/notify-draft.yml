@@ -1,0 +1,24 @@
+name: Tributes waiting on draft
+
+# When the daily task pushes to `draft`, open an issue (GitHub e-mails you).
+# Add the label `hold` to any open issue to stop the 20:00 auto-publish.
+on:
+  push:
+    branches: [draft]
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open a notice
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create hold --color D93F0B --description "Stops the automatic publish" --repo "$GITHUB_REPOSITORY" || true
+          gh issue create --repo "$GITHUB_REPOSITORY" \
+            --title "New tributes on draft: publish at ~20:00 Rome" \
+            --body "New commit on draft: ${{ github.event.head_commit.message }}. Preview: Cloudflare Deployments tab. They publish automatically this evening if the checks pass. To stop it, add the label 'hold' to this issue; remove the label to resume."

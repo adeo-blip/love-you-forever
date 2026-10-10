@@ -1,0 +1,84 @@
+name: Publish tributes (draft -> main)
+
+# Runs every day ~20:00 Rome (18:00 UTC in summer time, 19:00 in winter), or by hand.
+# Merges `draft` into `main` ONLY if every changed file is a tribute file and the
+# checks pass. Otherwise it opens an issue and publishes nothing.
+on:
+  schedule:
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency: publish-tributes
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Look for a hold
+        id: hold
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(gh issue list --label hold --state open --json number --jq length)
+          echo "held=$([ "$n" -gt 0 ] && echo yes || echo no)" >> "$GITHUB_OUTPUT"
+
+      - name: Work out what is new on draft
+        if: steps.hold.outputs.held == 'no'
+        id: diff
+        run: |
+          git fetch origin draft
+          git diff --name-status origin/main...origin/draft > changes.txt
+          cat changes.txt
+          echo "count=$(wc -l < changes.txt | tr -d ' ')" >> "$GITHUB_OUTPUT"
+          # anything other than a tribute file changed? -> do not auto-publish
+          if grep -v -E '^[AM][[:space:]]+src/data/days/[0-9]{4}-[0-9]{2}-[0-9]{2}\.json$' changes.txt; then
+            echo "other=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "other=no" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Merge, check, build
+        if: steps.hold.outputs.held == 'no' && steps.diff.outputs.count != '0' && steps.diff.outputs.other == 'no'
+        id: merge
+        run: |
+          git config user.name "love-you-forever bot"
+          git config user.email "bot@users.noreply.github.com"
+          git merge --no-ff -m "Publish tributes from draft" origin/draft
+          files=$(awk '{print $2}' changes.txt)
+          node scripts/check-tributes.mjs $files
+          npm ci
+          npm run build
+
+      - name: Publish
+        if: steps.merge.outcome == 'success'
+        run: git push origin HEAD:main
+
+      - name: Close the draft notices
+        if: steps.merge.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for n in $(gh issue list --state open --search "New tributes on draft in:title" --json number --jq '.[].number'); do
+            gh issue close "$n" --comment "Published."
+          done
+
+      - name: Open an issue if something blocked publishing
+        if: failure() || (steps.diff.outputs.other == 'yes')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --title "Tributes NOT published: needs your review" \
+            --body "The automatic publish stopped. Open the failed run for details: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}. If non-tribute files differ on draft, review the pull request from draft to main by hand. Nothing was published."

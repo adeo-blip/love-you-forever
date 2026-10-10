@@ -1,0 +1,6 @@
+# Extra capitalised words allowed inside tribute text (one per line).
+# Her own name, town and region are allowed automatically.
+Italy
+Italian
+Quinti
+Pietro
