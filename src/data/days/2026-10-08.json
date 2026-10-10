@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-08",
+  "title": "One woman we remember with love",
+  "intro": "Today we remember one woman from Tuscany. Her tribute uses only what trusted sources have shared about her life, and we keep her name in the light with gratitude.",
+  "women": [
+    {
+      "slug": "fiorella-roncucci-foiano-della-chiana",
+      "name": "Fiorella Roncucci",
+      "age": 76,
+      "town": "Pozzo della Chiana, Foiano della Chiana",
+      "region": "Tuscany",
+      "tribute": [
+        "Fiorella Roncucci, 76, lived in Pozzo della Chiana, a small village of Foiano della Chiana in the province of Arezzo. Many people also knew her by her married name, Quinti. She was a wife and a mother, her daughters now have families of their own, and her family is well known in the village.",
+        "Her parish priest remembered praying the rosary with her. He wrote that she was always present whenever the community came together to support its neighbours.",
+        "Her husband, her daughters and the whole village keep her in their thoughts."
+      ],
+      "example": "Showing up for her neighbours is a quiet kind of love, and her life shows how much that presence means to a whole village.",
+      "sources": [
+        {
+          "label": "Corriere di Arezzo (Italian)",
+          "url": "https://www.corrierediarezzo.it/news/cronaca/466723/fiorella-roncucci-investita-da-una-conoscente-i-carabinieri-individuano-l-auto-che-poi-e-scappata.html"
+        },
+        {
+          "label": "Corriere Toscano (Italian)",
+          "url": "https://corrieretoscano.it/arezzo/cronaca/76enne-investita-e-uccisa-nellaretino-alla-guida-unanziana-che-conosceva-la-vittima/"
+        }
+      ]
+    }
+  ]
+}
