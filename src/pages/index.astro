@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import AdSlot from '../components/AdSlot.astro';
-import { days, longDate } from '../data/site.js';
+import { days, longDate, metaLine } from '../data/site.js';
 const latest = days[0];
 const older = days.slice(1, 8);
 ---
@@ -26,8 +26,8 @@ const older = days.slice(1, 8);
             <article class="feature">
               <div class="meta-col">
                 <h3><a href={`/tributes/${w.slug}/`}>{w.name}</a></h3>
-                <p class="meta">{w.age} · {w.town}, {w.region}</p>
-                <p><a href={`/tributes/${w.slug}/`}>Her page →</a></p>
+                <p class="meta">{metaLine(w)}</p>
+                <p><a href={`/tributes/${w.slug}/`} aria-label={`Read the page for ${w.name}`}>Her page →</a></p>
               </div>
               <div class="body">
                 {w.tribute.map((p) => <p>{p}</p>)}
@@ -40,7 +40,7 @@ const older = days.slice(1, 8);
             {latest.women.map((w) => (
               <article class="card">
                 <h3><a href={`/tributes/${w.slug}/`}>{w.name}</a></h3>
-                <p class="meta">{w.age} · {w.town}, {w.region}</p>
+                <p class="meta">{metaLine(w)}</p>
                 <p>{w.tribute[0].length > 150 ? w.tribute[0].slice(0, 147).replace(/\s+\S*$/, '') + '…' : w.tribute[0]}</p>
               </article>
             ))}
