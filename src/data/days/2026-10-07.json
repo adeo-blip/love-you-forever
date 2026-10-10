@@ -1,0 +1,41 @@
+{
+ "date": "2026-10-07",
+ "title": "Two girls and women we remember with love",
+ "intro": "Today we remember two women from northern Italy, one of them a baby girl. Their names have not been published, and we respect that. We keep them in the light with gratitude.",
+ "women": [
+  {
+   "slug": "a-woman-from-varese",
+   "name": "A woman from Varese",
+   "age": null,
+   "town": "Varese",
+   "region": "Lombardy",
+   "tribute": [
+    "A woman from Varese, in Lombardy. Her name and age have not been published, and we respect that.",
+    "She is in our thoughts."
+   ],
+   "sources": [
+    {
+     "label": "Prealpina (Italian)",
+     "url": "https://www.prealpina.it/news/varese/557594/donna-muore-dopo-una-caduta-da-un-appartamento-a-varese.html"
+    }
+   ]
+  },
+  {
+   "slug": "a-baby-girl-from-pozzolo-formigaro",
+   "name": "A baby girl from Pozzolo Formigaro",
+   "age": "4 months",
+   "town": "Pozzolo Formigaro",
+   "region": "Piedmont",
+   "tribute": [
+    "A baby girl of four months from Pozzolo Formigaro, in the province of Alessandria. Her name has not been published, and we respect that.",
+    "She and her family are in our thoughts."
+   ],
+   "sources": [
+    {
+     "label": "Fanpage (Italian)",
+     "url": "https://www.fanpage.it/attualita/morta-a-4-mesi-dopo-12-giorni-di-ricovero-era-rimasta-gravemente-ferita-in-un-incidente-nellalessandrino/"
+    }
+   ]
+  }
+ ]
+}
