@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { days, dedication, longDate } from '../../data/site.js';
+import { days, dedication, longDate, metaLine } from '../../data/site.js';
 export function getStaticPaths() {
   return days.map((d) => ({ params: { date: d.date }, props: { d } }));
 }
@@ -17,7 +17,7 @@ const description = `${d.women.length} women remembered with love on ${longDate(
     {d.women.map((w) => (
       <section>
         <h2><a href={`/tributes/${w.slug}/`} style="color:inherit;text-decoration:none">{w.name}</a></h2>
-        <p class="meta">{w.age} · {w.town}, {w.region}</p>
+        <p class="meta">{metaLine(w)}</p>
         {w.tribute.map((p) => <p>{p}</p>)}
         {w.example && <div class="example"><strong>Her example to the world.</strong> {w.example}</div>}
         <p class="dedication">{dedication(w.name)}</p>

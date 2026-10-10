@@ -1,14 +1,15 @@
 ---
 import Base from '../../layouts/Base.astro';
 import AdSlot from '../../components/AdSlot.astro';
-import { tributes, dedication, longDate } from '../../data/site.js';
+import { tributes, dedication, longDate, metaLine } from '../../data/site.js';
 
 export function getStaticPaths() {
   return tributes.map((t) => ({ params: { slug: t.slug }, props: { t } }));
 }
 const { t } = Astro.props;
-const title = `${t.name}, ${t.age}: a tribute from ${t.town}`;
-const description = `A tribute to ${t.name}, ${t.age}, of ${t.town}, ${t.region}. Remembered with love, using only published sources.`;
+const withAge = t.age ? `${t.name}, ${t.age}` : t.name;
+const title = t.name.includes(t.town) ? `${t.name}: a tribute` : `${withAge}: a tribute from ${t.town}`;
+const description = `A tribute to ${withAge}, of ${t.town}, ${t.region}. Remembered with love, using only published sources.`;
 const url = `https://love-you-forever.libanje.com/tributes/${t.slug}/`;
 const ld = {
   '@context': 'https://schema.org',
@@ -27,7 +28,7 @@ const ld = {
   <article class="wrap">
     <p class="meta"><a href="/">Home</a> · <a href={`/days/${t.day}/`}>{longDate(t.day)}</a></p>
     <h1>{t.name}</h1>
-    <p class="meta">{t.age} · {t.town}, {t.region} · Remembered on {longDate(t.day)}</p>
+    <p class="meta">{metaLine(t)} · Remembered on {longDate(t.day)}</p>
     {t.tribute.map((p) => <p>{p}</p>)}
     {t.example && (
       <div class="example"><strong>Her example to the world.</strong> {t.example}</div>
