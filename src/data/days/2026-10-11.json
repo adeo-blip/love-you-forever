@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-11",
+  "title": "Two women we remember with love",
+  "intro": "Today we remember two women, one from Campania and one from Lombardy. We keep them in the light with respect and gratitude.",
+  "women": [
+    {
+      "slug": "greta-astarita-piano-di-sorrento",
+      "name": "Greta Astarita",
+      "age": 33,
+      "town": "Piano di Sorrento",
+      "region": "Campania",
+      "tribute": [
+        "Greta Astarita, 33, lived in Piano di Sorrento, in Campania, and was a mother to a young boy. She and her family are in our thoughts."
+      ],
+      "sources": [
+        {
+          "label": "ANSA (Italian)",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/11/incinta-al-settimo-mese-muore-col-figlio-scatta-linchiesta_3dd09c21-e60f-43c1-9d99-f520ca61885d.html"
+        },
+        {
+          "label": "Canale Dieci (Italian)",
+          "url": "https://canaledieci.it/2026/10/11/napoli-donna-incinta-viene-dimessa-torna-in-ospedale-e-muore-insieme-alla-bimba/"
+        }
+      ]
+    },
+    {
+      "slug": "a-woman-from-malnate",
+      "name": "A woman from Malnate",
+      "age": 52,
+      "town": "Malnate",
+      "region": "Lombardy",
+      "tribute": [
+        "A woman from Malnate, 52, in Lombardy. Her name has not been published, and we respect that.",
+        "She was well known in her town for her business and her many activities, and she is in our thoughts."
+      ],
+      "sources": [
+        {
+          "label": "VareseNews (Italian)",
+          "url": "https://www.varesenews.it/2026/10/sgomento-a-malnate-imprenditrice-trovata-senza-vita-nellazienda-di-famiglia/2704162/"
+        },
+        {
+          "label": "Malpensa24 (Italian)",
+          "url": "https://malpensa24.it/malnate-donna-morta-azienda"
+        }
+      ]
+    }
+  ]
+}
