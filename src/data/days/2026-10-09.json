@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-09",
+  "title": "One woman we remember with love",
+  "intro": "Today we remember one woman from Piedmont. Little has been shared about her life, so we keep her name in the light with respect.",
+  "women": [
+    {
+      "slug": "alessia-fonsatti-nichelino",
+      "name": "Alessia Fonsatti",
+      "age": 28,
+      "town": "Nichelino",
+      "region": "Piedmont",
+      "tribute": [
+        "Alessia Fonsatti, 28, lived in Nichelino, near Turin, and came from Moncalieri. She is in our thoughts."
+      ],
+      "sources": [
+        {
+          "label": "Giornale La Voce (Italian)",
+          "url": "https://www.giornalelavoce.it/news/cronaca/744867/nichelino-muore-a-28-anni-dopo-lo-schianto-con-un-tir-la-vittima-e-alessia-fonsatti.html"
+        },
+        {
+          "label": "Torino Sud (Italian)",
+          "url": "https://torinosud.it/cronaca/nichelino-28enne-moncalieri-morta-incidente-stradale-via-debouche-stupinigi-36078"
+        }
+      ]
+    }
+  ]
+}
