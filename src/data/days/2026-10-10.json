@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-10",
+  "title": "One woman we remember with love",
+  "intro": "Today we remember one woman from Liguria. Little has been shared about her life, so we keep her name in the light with respect.",
+  "women": [
+    {
+      "slug": "caterina-daglia-mignanego",
+      "name": "Caterina Daglia",
+      "age": 76,
+      "town": "Mignanego",
+      "region": "Liguria",
+      "tribute": [
+        "Caterina Daglia, 76, lived near Mignanego, in the hills behind Genoa, and was born in Voghera. She is in our thoughts."
+      ],
+      "sources": [
+        {
+          "label": "Genova24 (Italian)",
+          "url": "https://www.genova24.it/2026/10/incidente-mortale-mignanego-auto-scarpata-477338/"
+        },
+        {
+          "label": "ANSA Liguria (Italian)",
+          "url": "https://ansa.it/liguria/notizie/2026/10/09/finisce-con-lauto-in-una-scarpata-vicino-genova-morta-una-donna_79dc58fa-f883-49d5-ad3a-835c970319d7.html"
+        }
+      ]
+    }
+  ]
+}
