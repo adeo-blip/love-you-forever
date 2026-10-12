@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-12",
+  "title": "Two women we remember with love",
+  "intro": "Today we remember two women from Piedmont and Sicily. Their tributes use only what trusted sources have shared, and we keep their memory in the light with gratitude.",
+  "women": [
+    {
+      "slug": "alice-san-secondo",
+      "name": "Alice",
+      "age": 17,
+      "town": "San Secondo",
+      "region": "Piedmont",
+      "tribute": [
+        "Alice, 17, from San Secondo, was a member of her parish youth group in Pinerolo.",
+        "She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Eco del Chisone (Italian)", "url": "https://www.ecodelchisone.it/news/2026-10-11/pragelato-auto-fuori-strada-deceduta-ospedale-ragazza-17-anni-62296" },
+        { "label": "ANSA (Italian)", "url": "https://www.ansa.it/piemonte/notizie/2026/10/11/incidente-stradale-a-pragelato-e-morta-una-giovane-coinvolta_95077277-7e93-4089-9e8b-dbc1427a61ee.html" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-catania",
+      "name": "A woman from Catania",
+      "age": null,
+      "town": "Catania",
+      "region": "Sicily",
+      "tribute": [
+        "She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Italpress (Italian)", "url": "https://www.italpress.com/incidente-stradale-a-catania-muore-una-donna-nella-zona-di-ponte-primo-sole/" },
+        { "label": "Teleacras (Italian)", "url": "https://www.teleacras.it/2026/10/12/incidente-stradale-una-donna-morta/" }
+      ]
+    }
+  ]
+}
