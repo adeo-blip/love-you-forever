@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-16",
+  "title": "Two women we remember with love",
+  "intro": "Today we remember two women, from Piedmont and Sicily. We keep them in our thoughts with gratitude and respect.",
+  "women": [
+    {
+      "slug": "lauretta-siano-2026-10-16",
+      "name": "Lauretta Siano",
+      "age": 61,
+      "town": "Airasca",
+      "region": "Piedmont",
+      "tribute": [
+        "Lauretta Siano was 61 years old and came from Airasca, in Piedmont. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Eco del Chisone (Italian)", "url": "https://www.ecodelchisone.it/news/2026-10-15/cavour-morta-donna-61-anni-coinvolta-nello-schianto-provinciale-151-62389" },
+        { "label": "ANSA (Italian)", "url": "https://www.ansa.it/piemonte/notizie/2026/10/15/incidente-stradale-nel-torinese-muore-una-donna-di-61-anni_6c004e5f-ecbe-418c-8883-61cf3908dcad.html" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-augusta-2026-10-16",
+      "name": "A woman from Augusta",
+      "age": null,
+      "town": "Augusta",
+      "region": "Sicily",
+      "tribute": [
+        "She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Diretta Sicilia (Italian)", "url": "https://www.direttasicilia.it/2026/10/15/donna-muore-dopo-un-volo-dalla-palazzina-indagini-in-corso/" }
+      ]
+    }
+  ]
+}
