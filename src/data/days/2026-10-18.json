@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-18",
+  "title": "Three women we remember with love",
+  "intro": "Today we remember three women, from Trentino-Alto Adige and Veneto. We keep them in our thoughts with gratitude and respect.",
+  "women": [
+    {
+      "slug": "a-woman-from-canazei-2026-10-18",
+      "name": "A woman from Canazei",
+      "age": 36,
+      "town": "Canazei",
+      "region": "Trentino-Alto Adige",
+      "tribute": [
+        "She was 36 years old and is in our thoughts."
+      ],
+      "sources": [
+        { "label": "il Dolomiti (Italian)", "url": "https://www.ildolomiti.it/montagna/2026/tragico-incidente-in-quota-morta-una-donna-di-36-anni" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-mirano-2026-10-18",
+      "name": "A woman from Mirano",
+      "age": 65,
+      "town": "Mirano",
+      "region": "Veneto",
+      "tribute": [
+        "She was 65 years old and is in our thoughts."
+      ],
+      "sources": [
+        { "label": "ANSA (Italian)", "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/17/esce-per-una-passeggiata-e-scivola-donna-trovata-morta_1b05c209-2ac3-4bea-95b3-3e5a5513eec6.html" },
+        { "label": "Venezia Today (Italian)", "url": "https://www.veneziatoday.it/cronaca/donna-mirano-morta-gallio.html" }
+      ]
+    },
+    {
+      "slug": "franziska-winkler-appiano-2026-10-18",
+      "name": "Franziska Winkler",
+      "age": 76,
+      "town": "Appiano",
+      "region": "Trentino-Alto Adige",
+      "tribute": [
+        "Franziska Winkler was 76 years old and came from Appiano, in South Tyrol. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "il Dolomiti (Italian)", "url": "https://www.ildolomiti.it/cronaca/2026/travolta-sulle-strisce-e-trascinata-da-unauto-franziska-winkler-muore-dopo-3-giorni-di-agonia-in-ospedale-per-il-conducente-laccusa-diventa-omicidio-stradale" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-15",
+  "title": "One woman we remember with love",
+  "intro": "Today we remember one woman from Veneto. We keep her in our thoughts with gratitude and respect.",
+  "women": [
+    {
+      "slug": "ilenia-callegaro-2026-10-15",
+      "name": "Ilenia Callegaro",
+      "age": 35,
+      "town": "Tribano",
+      "region": "Veneto",
+      "tribute": [
+        "Ilenia Callegaro was 35 years old and lived in Tribano, in Veneto. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Notizie.it (Italian)", "url": "https://www.notizie.it/pozzonovo-schianto-frontale-morto-ferito/" },
+        { "label": "Rovigo.News (Italian)", "url": "https://www.rovigo.news/pozzonovo-scontro-frontale-tra-due-auto-muore-una-donna-di-35-anni/" }
+      ]
+    }
+  ]
+}

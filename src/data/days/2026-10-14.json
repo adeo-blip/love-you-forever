@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-14",
+  "title": "One woman we remember with love",
+  "intro": "Today we remember one woman from Piedmont. We keep her in our thoughts with gratitude and respect.",
+  "women": [
+    {
+      "slug": "a-woman-from-piedmont-2026-10-14",
+      "name": "A woman from Piedmont",
+      "age": null,
+      "town": "Piedmont",
+      "region": "Piedmont",
+      "tribute": [
+        "She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "ANSA (Italian)", "url": "https://www.ansa.it/piemonte/notizie/2026/10/13/scontro-tra-auto-e-camion-una-donna-morta-sullautostrada-a26_b935c05a-a7c8-427c-8161-c4afe2d0a7d3.html" },
+        { "label": "IVG (Italian)", "url": "https://www.ivg.it/2026/10/tragedia-sulle-autostrade-incidente-mortale-in-a26-la-vittima-e-una-donna/" }
+      ]
+    }
+  ]
+}
