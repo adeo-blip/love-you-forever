@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-13",
+  "title": "Two women we remember with love",
+  "intro": "Today we remember two women from Marche and Emilia-Romagna. Their tributes use only what trusted sources have shared, and we keep their memory in the light with gratitude.",
+  "women": [
+    {
+      "slug": "gaia-stronati-castelbellino",
+      "name": "Gaia Stronati",
+      "age": 20,
+      "town": "Castelbellino",
+      "region": "Marche",
+      "tribute": [
+        "Gaia Stronati, 20, was from Castelbellino. She finished an art high school, loved fashion and design, and had begun working as a consultant for energy supply contracts.",
+        "Friends and her community remember her as cheerful and liked by everyone, a young woman full of love for life and for her dreams."
+      ],
+      "sources": [
+        { "label": "ANSA (Italian)", "url": "https://www.ansa.it/umbria/notizie/2026/10/13/incidenti-stradali-dolore-e-cordoglio-nelle-marche-per-la-morte-di-gaia-e-stefano_d2644065-1a4b-4dbb-a35f-72b657d5ff49.html" },
+        { "label": "La Nazione (Italian)", "url": "https://www.lanazione.it/umbria/cronaca/incidente-mortale-passignano-rzz7toaj" }
+      ]
+    },
+    {
+      "slug": "a-mother-from-bologna",
+      "name": "A mother from Bologna",
+      "age": 76,
+      "town": "Bologna",
+      "region": "Emilia-Romagna",
+      "tribute": [
+        "She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Bologna Today (Italian)", "url": "https://www.bolognatoday.it/cronaca/incendio-in-un-appartamento-di-via-galliera-muore-una-donna-di-76-anni.html" },
+        { "label": "Il Resto del Carlino (Italian)", "url": "https://ilrestodelcarlino.it/bologna/cronaca/sigaretta-fa-scoppiare-un-incendio-donna-trovata-morta-in-casa-x192ni3e" }
+      ]
+    }
+  ]
+}

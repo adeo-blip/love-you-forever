@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-17",
+  "title": "Five women we remember with love",
+  "intro": "Today we remember five women, from Lombardy, Piedmont, Lazio, Emilia-Romagna and Apulia. We keep them in our thoughts with gratitude and respect.",
+  "women": [
+    {
+      "slug": "pierina-dupon-cassano-magnago-2026-10-17",
+      "name": "Pierina Dupon",
+      "age": 69,
+      "town": "Cassano Magnago",
+      "region": "Lombardy",
+      "tribute": [
+        "Pierina Dupon was 69 years old and came from Cassano Magnago, in Lombardy. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Sky TG24 (Italian)", "url": "https://tg24.sky.it/cronaca/2026/10/17/incidente-stradale-cassano-magnago" },
+        { "label": "Today (Italian)", "url": "https://www.today.it/cronaca/pierina-dupon-morta-incidente-cassano-magnago-ex-compagno.html" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-mirabello-monferrato-2026-10-17",
+      "name": "A woman from Mirabello Monferrato",
+      "age": 56,
+      "town": "Mirabello Monferrato",
+      "region": "Piedmont",
+      "tribute": [
+        "She was 56 years old and is in our thoughts."
+      ],
+      "sources": [
+        { "label": "ANSA (Italian)", "url": "https://www.ansa.it/piemonte/notizie/2026/10/16/incidente-sulla26-nellalessandrino-muore-una-donna_9848330c-0654-4aa9-ac2e-c62294cf20a7.html" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-frosinone-2026-10-17",
+      "name": "A woman from Frosinone",
+      "age": 46,
+      "town": "Frosinone",
+      "region": "Lazio",
+      "tribute": [
+        "She was 46 years old and is in our thoughts."
+      ],
+      "sources": [
+        { "label": "TG24.info (Italian)", "url": "https://tg24.info/news/frosinone/frosinone-donna-di-46-anni-trovata-senza-vita-a-santa-maria-goretti-indagini-in-corso/" },
+        { "label": "Frosinone Today (Italian)", "url": "https://www.frosinonetoday.it/cronaca/tragedia-frosinone-donna-morta-sotto-casa.html" }
+      ]
+    },
+    {
+      "slug": "vincenza-giannini-mirandola-2026-10-17",
+      "name": "Vincenza Giannini",
+      "age": 74,
+      "town": "Mirandola",
+      "region": "Emilia-Romagna",
+      "tribute": [
+        "Vincenza Giannini was 74 years old and lived in Mirandola, in Emilia-Romagna. She was originally from Bovino, in Apulia, and she is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Business.it (Italian)", "url": "https://www.business.it/https-www-thesocialpost-it-2026-10-16-decapitati-in-casa-fermato-il-figlio-della-donna-chi-sono-le-vittime-fuori-i-nomi/" }
+      ]
+    },
+    {
+      "slug": "maria-ionescu-mottola-2026-10-17",
+      "name": "Maria Ionescu",
+      "age": 66,
+      "town": "Mottola",
+      "region": "Apulia",
+      "tribute": [
+        "Maria Ionescu was 66 years old and came from Mottola, in Apulia. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Puglia Sera (Italian)", "url": "https://pugliasera.it/2026/10/16/sosta-sulla14-poi-viene-trovata-morta-giallo-sulla-66enne-di-mottola/" }
+      ]
+    }
+  ]
+}
