@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-19",
+  "title": "Three women we remember with love",
+  "intro": "Today we remember three women, from Liguria, Lazio and Friuli Venezia Giulia. We keep them in our thoughts with gratitude and respect.",
+  "women": [
+    {
+      "slug": "ivana-melogno-calizzano-2026-10-19",
+      "name": "Ivana Melogno",
+      "age": 77,
+      "town": "Calizzano",
+      "region": "Liguria",
+      "tribute": [
+        "Ivana Melogno was 77 years old and came from Calizzano, in Liguria. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Redazione News (Italian)", "url": "https://www.redazionenews.it/cronaca-savonese/2026/10/19/auto-investe-quattro-pedoni-a-calizzano-muore-ivana-melogno/" },
+        { "label": "Savona News (Italian)", "url": "https://www.savonanews.it/2026/10/18/leggi-notizia/argomenti/cronaca-2/articolo/tragedia-a-calizzano-due-persone-investite-da-unauto-muore-una-donna.html" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-rome-2026-10-19",
+      "name": "A woman from Rome",
+      "age": 88,
+      "town": "Rome",
+      "region": "Lazio",
+      "tribute": [
+        "She was 88 years old and is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Adnkronos (Italian)", "url": "https://www.redazionenews.it/adnkronos/2026/10/18/roma-89enne-uccide-la-moglie-e-si-suicida-lanziana-era-malata-oncologica/" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-germany-2026-10-19",
+      "name": "A woman from Germany",
+      "age": 35,
+      "town": "Germany",
+      "region": "Friuli Venezia Giulia",
+      "tribute": [
+        "She was 35 years old and is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Messaggero Veneto (Italian)", "url": "https://www.messaggeroveneto.it/cronaca/precipita-parete-muore-davanti-compagno-alpi-giulie-alpinista-v0011pa5" },
+        { "label": "Il Fatto Quotidiano (Italian)", "url": "https://www.ilfattoquotidiano.it/2026/10/19/cede-un-appiglio-durante-la-scalata-alpinista-precipita-per-oltre-50-metri-e-muore-davanti-al-compagno-sulle-alpi-giulie/8542756/" }
+      ]
+    }
+  ]
+}
