@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-22",
+  "title": "Two women we remember with love",
+  "intro": "Today we remember two women, from Piedmont and Abruzzo. We keep them in our thoughts with gratitude and respect.",
+  "women": [
+    {
+      "slug": "caterina-arno-torino-2026-10-22",
+      "name": "Caterina Arnò",
+      "age": 42,
+      "town": "Turin",
+      "region": "Piedmont",
+      "tribute": [
+        "Caterina Arnò was 42 years old and came from Turin, in Piedmont. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Virgilio (Italian)", "url": "https://www.virgilio.it/notizie/donna-morta-investita-da-un-autobus-a-torino-in-via-bologna-non-si-muoveva-non-reagiva-1790726" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-vasto-marina-2026-10-22",
+      "name": "A woman from Vasto Marina",
+      "age": 62,
+      "town": "Vasto Marina",
+      "region": "Abruzzo",
+      "tribute": [
+        "She was 62 years old and is in our thoughts."
+      ],
+      "sources": [
+        { "label": "ANSA (Italian)", "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/21/donna-trovata-morta-sulla-spiaggia-nel-chietino-disposta-lautopsia_7cb551cb-76e5-410f-b46b-13e35ee04a53.html" }
+      ]
+    }
+  ]
+}
