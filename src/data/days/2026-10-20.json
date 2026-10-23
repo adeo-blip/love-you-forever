@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-20",
+  "title": "Four women we remember with love",
+  "intro": "Today we remember four women, from Calabria, Apulia, Umbria and Veneto. We keep them in our thoughts with gratitude and respect.",
+  "women": [
+    {
+      "slug": "a-girl-from-roggiano-gravina-2026-10-20",
+      "name": "A girl from Roggiano Gravina",
+      "age": null,
+      "town": "Roggiano Gravina",
+      "region": "Calabria",
+      "tribute": [
+        "She was a young girl from Roggiano Gravina, in Calabria, and she is in our thoughts."
+      ],
+      "sources": [
+        {
+          "label": "Sbircia la Notizia (Italian)",
+          "url": "https://www.sbircialanotizia.it/articoli/2026/10/21/roggiano-trattore-k7m2q/"
+        }
+      ]
+    },
+    {
+      "slug": "concetta-brattoli-bitonto-2026-10-20",
+      "name": "Concetta Brattoli",
+      "age": 67,
+      "town": "Bitonto",
+      "region": "Apulia",
+      "tribute": [
+        "Concetta Brattoli was 67 years old and came from Bitonto, in Apulia. She is in our thoughts."
+      ],
+      "sources": [
+        {
+          "label": "Giovinazzo Viva (Italian)",
+          "url": "https://www.giovinazzoviva.it/notizie/finisce-fuori-strada-sulla-giovinazzo-bitonto-67enne-muore-in-ospedale"
+        }
+      ]
+    },
+    {
+      "slug": "fatiha-el-afghani-terni-2026-10-20",
+      "name": "Fatiha El Afghani",
+      "age": 44,
+      "town": "Terni",
+      "region": "Umbria",
+      "tribute": [
+        "Fatiha El Afghani was 44 years old and is remembered in Terni, in Umbria. She is in our thoughts."
+      ],
+      "sources": [
+        {
+          "label": "ANSA (Italian)",
+          "url": "https://www.ansa.it/sito/notizie/topnews/2026/10/19/presa-a-martellate-dal-marito-sul-bus-morta-dopo-cinque-mesi_fdcc1991-1f90-47a9-960d-e0edcc390dac.html"
+        }
+      ]
+    },
+    {
+      "slug": "a-woman-from-san-michele-al-tagliamento-2026-10-20",
+      "name": "A woman from San Michele al Tagliamento",
+      "age": 56,
+      "town": "San Michele al Tagliamento",
+      "region": "Veneto",
+      "tribute": [
+        "She was 56 years old and is in our thoughts."
+      ],
+      "sources": [
+        {
+          "label": "ANSA (Italian)",
+          "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/22/sta-male-al-lavoro-ma-linfermiera-non-chiama-il-118-morta-una-donna_526fc4c6-9c25-423b-b46f-30cb89791bb7.html"
+        }
+      ]
+    }
+  ]
+}

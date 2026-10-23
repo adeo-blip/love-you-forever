@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-23",
+  "title": "Two women we remember with love",
+  "intro": "Today we remember two women, from Liguria and Lombardy. We keep them in our thoughts with gratitude and respect.",
+  "women": [
+    {
+      "slug": "eva-del-transito-azocar-chavez-genova-2026-10-23",
+      "name": "Eva del Transito Azocar Chavez",
+      "age": 63,
+      "town": "Genoa",
+      "region": "Liguria",
+      "tribute": [
+        "Eva del Transito Azocar Chavez was 63 years old and lived in the Marassi district of Genoa, in Liguria. She was born in Chile. She is in our thoughts."
+      ],
+      "sources": [
+        {
+          "label": "Primocanale (Italian)",
+          "url": "https://www.primocanale.it/cronaca/72824-marassi-chi-era-eva-del-transito-azocar-chavez-17esima-vittima-strade-2026.html"
+        }
+      ]
+    },
+    {
+      "slug": "a-woman-from-gallarate-2026-10-23",
+      "name": "A woman from Gallarate",
+      "age": 55,
+      "town": "Gallarate",
+      "region": "Lombardy",
+      "tribute": [
+        "She was 55 years old and is in our thoughts."
+      ],
+      "sources": [
+        {
+          "label": "Il Giorno (Italian)",
+          "url": "https://www.ilgiorno.it/varese/cronaca/dramma-a-gallarate-incendio-in-un-appartamento-donna-trovata-morta-carbonizzata-ee5a2481"
+        }
+      ]
+    }
+  ]
+}
