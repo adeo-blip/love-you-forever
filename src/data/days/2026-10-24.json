@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-24",
+  "title": "Three women we remember with love",
+  "intro": "Today we remember three women, from Piedmont, Lombardy and Apulia. We keep them in our thoughts with gratitude and respect.",
+  "women": [
+    {
+      "slug": "a-girl-from-tortona-2026-10-24",
+      "name": "A little girl from Tortona",
+      "age": 3,
+      "town": "Tortona",
+      "region": "Piedmont",
+      "tribute": [
+        "She was three years old and is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Il Quotidiano Nazionale (Italian)", "url": "https://www.quotidiano.net/cronaca/bambina-di-3-anni-trovata-morta-in-casa-a-tortona-arrestata-la-madre-l9n5mgke" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-vergiate-2026-10-24",
+      "name": "A woman from Vergiate",
+      "age": 36,
+      "town": "Vergiate",
+      "region": "Lombardy",
+      "tribute": [
+        "She was 36 years old and lived in Vergiate, in the province of Varese. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "ilBustese (Italian)", "url": "https://www.ilbustese.it/2026/10/23/amp/argomenti/cronaca-26/articolo/flash-omicidio-nella-notte-a-vergiate-uccisa-a-coltellate-una-donna-di-36-anni-1.html" }
+      ]
+    },
+    {
+      "slug": "belgjyzar-shabani-lizzano-2026-10-24",
+      "name": "Belgjyzar Shabani",
+      "age": 81,
+      "town": "Lizzano",
+      "region": "Apulia",
+      "tribute": [
+        "Belgjyzar Shabani was 81 years old and lived in Lizzano, in the province of Taranto. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Studio 100 (Italian)", "url": "https://www.studio100.it/2026/10/23/100-notizie-tg-h-1930-del-23-ottobre-2026-mitilicoltura-trovata-morta-81enne-a-lizzano-a-statte-una-strada-intitolata-ad-artemisia-gentileschi/" }
+      ]
+    }
+  ]
+}
