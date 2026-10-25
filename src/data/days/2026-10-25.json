@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-25",
+  "title": "Three women we remember with love",
+  "intro": "Today we remember three women from Calabria, Puglia and Veneto. We share only what trusted sources have told us about them, and we hold each of them in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "silvana-sibarelli-cassano-allo-ionio",
+      "name": "Silvana Sibarelli",
+      "age": 60,
+      "town": "Cassano allo Ionio",
+      "region": "Calabria",
+      "tribute": [
+        "Silvana Sibarelli, 60, from Cassano allo Ionio in Calabria, is in our thoughts."
+      ],
+      "sources": [
+        { "label": "ANSA (Italian)", "url": "https://ansa.it/amp/sito/notizie/cronaca/2026/10/24/agguato-in-calabria-uccisa-la-moglie-di-un-boss-lui-e-grave_48605512-6c55-4b18-8cde-4a7351ad5747.html" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-andria",
+      "name": "A woman from Andria",
+      "age": null,
+      "town": "Andria",
+      "region": "Puglia",
+      "tribute": [
+        "A woman from Andria in Puglia is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Andria Viva (Italian)", "url": "https://www.andriaviva.it/notizie/tragedia-sui-binari-tra-trani-e-barletta-donna-di-andria-perde-la-vita-investita-da-un-treno" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-the-padua-area",
+      "name": "A woman from the Padua area",
+      "age": 74,
+      "town": "Padua area",
+      "region": "Veneto",
+      "tribute": [
+        "A woman aged 74 from the Padua area in Veneto, she was out walking in the Apennine hills with her husband and friends.",
+        "She is in our thoughts, together with her husband and everyone who loves her."
+      ],
+      "sources": [
+        { "label": "Il Mattino di Padova (Italian)", "url": "https://www.mattinopadova.it/cronaca/morta-escursionista-padova-appennino-reggiano-malore-cosa-e-successo-djj5gngf" }
+      ]
+    }
+  ]
+}
