@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-26",
+  "title": "One woman we remember with love",
+  "intro": "Today we remember one woman from Molise. We share only what trusted sources have told us, and we hold her in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "a-mother-from-ururi",
+      "name": "A mother from Ururi",
+      "age": 91,
+      "town": "Ururi",
+      "region": "Molise",
+      "tribute": [
+        "A mother aged 91 from Ururi in Molise is in our thoughts."
+      ],
+      "sources": [
+        { "label": "isNews Molise (Italian)", "url": "https://www.isnews.it/2026/10/25/madre-e-figlio-trovati-morti-in-casa-disposte-le-autopsie/" }
+      ]
+    }
+  ]
+}
