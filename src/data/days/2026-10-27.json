@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-27",
+  "title": "Three women we remember with love",
+  "intro": "Today we remember three women from Lombardy and Liguria. We share only what trusted sources have told us, and we hold each of them in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "rosalba-persico-milano",
+      "name": "Rosalba Persico",
+      "age": 84,
+      "town": "Milan",
+      "region": "Lombardy",
+      "tribute": [
+        "Rosalba Persico, 84, from Milan in Lombardy, is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Il Giorno (Italian)", "url": "https://www.ilgiorno.it/milano/cronaca/incendio-palazzo-via-bottoni-milano-disabile-morta-bmtktm65" }
+      ]
+    },
+    {
+      "slug": "maria-ursache-rapallo",
+      "name": "Maria Ursache",
+      "age": 63,
+      "town": "Rapallo",
+      "region": "Liguria",
+      "tribute": [
+        "Maria Ursache, 63, from Rapallo in Liguria, is in our thoughts."
+      ],
+      "sources": [
+        { "label": "LevanteNews (Italian)", "url": "https://levantenews.it/2026/10/26/rapallo-morta-la-donna-investita-10-giorni-fa-a-santa-maria" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-lecco",
+      "name": "A woman from Lecco",
+      "age": 42,
+      "town": "Lecco",
+      "region": "Lombardy",
+      "tribute": [
+        "A woman aged 42 from Lecco in Lombardy is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Prima Lecco (Italian)", "url": "https://primalecco.it/cronaca/tragedia-allalba-a-lecco-donna-di-42-anni-trovata-morta-in-strada/" }
+      ]
+    }
+  ]
+}
