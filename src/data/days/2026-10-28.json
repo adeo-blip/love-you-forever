@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-28",
+  "title": "Three women we remember with love",
+  "intro": "Today we remember three women from Veneto, Basilicata and Campania. We share only what trusted sources have told us, and we hold each of them in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "kseniya-lyulchak-concordia-sagittaria",
+      "name": "Kseniya Lyulchak",
+      "age": 27,
+      "town": "Concordia Sagittaria",
+      "region": "Veneto",
+      "tribute": [
+        "Kseniya Lyulchak, 27, is remembered for her love of music and for the roots she shared with her mother.",
+        "She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Il Gazzettino (Italian)", "url": "https://www.ilgazzettino.it/nordest/venezia/morta_incidente_kseniya_lyulchak_chi_era_mamma_musica-9853729.html" },
+        { "label": "ANSA (Italian)", "url": "https://www.ansa.it/veneto/notizie/2026/10/27/auto-contro-un-platano-ragazza-di-27-anni-muore-nel-veneziano_f6762b91-a221-4b9b-8343-7e21efa2a872.html" }
+      ]
+    },
+    {
+      "slug": "rosa-altieri-scanzano-jonico",
+      "name": "Rosa Altieri",
+      "age": 44,
+      "town": "Scanzano Jonico",
+      "region": "Basilicata",
+      "tribute": [
+        "Rosa Altieri, 44, was a nurse who had recently made her home in Scanzano Jonico, in Basilicata.",
+        "She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Ufficio Stampa Basilicata (Italian)", "url": "https://ufficiostampabasilicata.it/2026/10/28/pisticci-incidente-mortale-perde-la-vita-una-donna-di-44-anni/" },
+        { "label": "Antenna Sud (Italian)", "url": "https://www.antennasud.com/pisticci-incidente-mortale-perde-la-vita-una-donna-di-44-anni/" }
+      ]
+    },
+    {
+      "slug": "mary-jane-salomon-trentola-ducenta",
+      "name": "Mary Jane Salomon",
+      "age": null,
+      "town": "Trentola Ducenta",
+      "region": "Campania",
+      "tribute": [
+        "Mary Jane Salomon, from Trentola Ducenta in Campania, is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Edizione Caserta (Italian)", "url": "https://edizionecaserta.net/2026/10/27/scomparsa-da-giorni-trovata-senza-vita-in-unabitazione-disposta-autopsia/" },
+        { "label": "Caserta News (Italian)", "url": "https://www.casertanews.it/cronaca/donna-scomparsa-mary-jane-morta-trentola.html" }
+      ]
+    }
+  ]
+}
