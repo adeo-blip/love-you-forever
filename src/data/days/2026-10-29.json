@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-29",
+  "title": "One woman we remember with love",
+  "intro": "Today we remember one woman from Sardinia. We share only what trusted sources have told us, and we hold her in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "rimedia-cocco-nule",
+      "name": "Rimedia Cocco",
+      "age": 78,
+      "town": "Nule",
+      "region": "Sardinia",
+      "tribute": [
+        "Rimedia Cocco, 78, from Nule in Sardinia, is remembered by her community as devoted, very altruistic and a respected point of reference for everyone who knew her.",
+        "She is in our thoughts."
+      ],
+      "example": "Her life shows how quiet devotion to others can become a point of reference for a whole village.",
+      "sources": [
+        { "label": "ANSA (Italian)", "url": "https://www.ansa.it/sardegna/notizie/2026/10/28/e-morta-la-donna-di-78-anni-caduta-dal-terrazzino-ieri-nel-nord-sardegna_ddb1cfd4-902e-4f34-b748-76820410892a.html" },
+        { "label": "Vistanet (Italian)", "url": "https://www.vistanet.it/ogliastra/2026/10/29/tragedia-a-nule-il-paese-piange-rimedia-cocco-la-78enne-morta-dopo-la-terribile-caduta-dal-balcone/" }
+      ]
+    }
+  ]
+}
