@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-31",
+  "title": "One woman we remember with love",
+  "intro": "Today we remember one woman from Veneto. We share only what trusted sources have told us, and we hold her in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "anna-maria-della-colletta-san-fior",
+      "name": "Anna Maria Della Colletta",
+      "age": 68,
+      "town": "San Fior",
+      "region": "Veneto",
+      "tribute": [
+        "Anna Maria Della Colletta, 68, lived in Castello Roganzuolo, in the municipality of San Fior, in the province of Treviso. She is remembered as a woman devoted to her family and to her work.",
+        "She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "La Tribuna di Treviso (Italian)", "url": "https://www.tribunatreviso.it/cronaca/incidente-pontebbana-pordenone-morta-anna-maria-della-colletta-san-fior-agsy7f51" },
+        { "label": "ANSA (Italian)", "url": "https://www.ansa.it/friuliveneziagiulia/notizie/2026/10/30/auto-contro-camion-muore-una-donna-a-pordenone_a370934c-99d6-40d1-86f8-a1b7cba03d13.html" }
+      ]
+    }
+  ]
+}
