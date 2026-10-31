@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-30",
+  "title": "Two women we remember with love",
+  "intro": "Today we remember two women from Liguria and Veneto. We share only what trusted sources have told us, and we hold each of them in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "gabriella-gellio-avegno",
+      "name": "Gabriella Gellio",
+      "age": 69,
+      "town": "Salto di Avegno",
+      "region": "Liguria",
+      "tribute": [
+        "Gabriella Gellio, 69, was a former primary-school teacher from Genoa who taught until her retirement. About fifteen years ago she moved with her husband to a house in Salto di Avegno, where she raised Maine Coon cats and treated them as family.",
+        "Former students and friends remember her fondly."
+      ],
+      "example": "Her life shows how a teacher's care for children can grow into care for every living creature around her.",
+      "sources": [
+        { "label": "Tuttonotizie (Italian)", "url": "https://tuttonotizie.eu/incidenti-ed-emergenze/gabriella-gellio-morta-incendio-avegno-gatti-maine-coon/" },
+        { "label": "ANSA (Italian)", "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/30/incendio-in-casa-anziana-muore-per-salvare-i-suoi-gatti_44f35e0c-ad11-454e-ae93-111679f6dd46.html" }
+      ]
+    },
+    {
+      "slug": "nihal-kaddouri-brugine",
+      "name": "Nihal Kaddouri",
+      "age": 28,
+      "town": "Brugine",
+      "region": "Veneto",
+      "tribute": [
+        "Nihal Kaddouri, 28, was a mother of young children who came to Italy eight years ago. With her family she had recently made a new home in Brugine, in the province of Padua.",
+        "She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Notizie Audaci (Italian)", "url": "https://www.notizieaudaci.it/notizie-attualita/nihal-kaddouri-morta-incidente-bici-brugine/124850" }
+      ]
+    }
+  ]
+}
