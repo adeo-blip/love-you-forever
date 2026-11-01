@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "title": "One woman we remember with love",
+  "intro": "Today we remember one woman from Sicily. We share only what trusted sources have told us, and we hold her in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "a-woman-from-modica",
+      "name": "A woman from Modica",
+      "age": 83,
+      "town": "Modica",
+      "region": "Sicily",
+      "tribute": [
+        "She was 83 and lived in Modica, in the province of Ragusa. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Quotidiano di Ragusa (Italian)", "url": "https://www.quotidianodiragusa.it/2026/11/01/cronaca/anziana-investita-modica-muore/" },
+        { "label": "RagusaNews (Italian)", "url": "https://www.ragusanews.com/e-morta-la-donna-investita-da-un-suv-al-corso-di-sabato-sera-a-modica/" }
+      ]
+    }
+  ]
+}
