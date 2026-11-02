@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-02",
+  "title": "Three women we remember with love",
+  "intro": "Today we remember three women, from Lombardy, Lazio and Emilia-Romagna. We share only what trusted sources have told us, and we hold them in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "a-woman-from-vigevano-2026-11-02",
+      "name": "A woman from Vigevano",
+      "age": null,
+      "town": "Vigevano",
+      "region": "Lombardy",
+      "tribute": [
+        "She was a woman from Vigevano, in Lombardy, and she is in our thoughts."
+      ],
+      "sources": [
+        { "label": "L'Araldo Lomellino (Italian)", "url": "https://www.araldolomellino.it/territorio/vigevano/vigevano-cade-dalla-scala-al-cimitero-e-muore/" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-ceprano-2026-11-02",
+      "name": "A woman from Ceprano",
+      "age": 90,
+      "town": "Ceprano",
+      "region": "Lazio",
+      "tribute": [
+        "She was 90 years old and came from Ceprano, in Lazio. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Frosinone News (Italian)", "url": "https://www.frosinonenews.eu/anziana-trovata-morta-nel-giardino-dellex-ospedale-ferrari-indagini-serrate-sulla-tragedia/" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-ponte-samoggia-2026-11-02",
+      "name": "A woman from Ponte Samoggia",
+      "age": 50,
+      "town": "Ponte Samoggia",
+      "region": "Emilia-Romagna",
+      "tribute": [
+        "She was 50 years old and is remembered in Ponte Samoggia, in Emilia-Romagna. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "ANSA (Italian)", "url": "https://www.ansa.it/emiliaromagna/notizie/2026/11/01/scontro-tra-auto-e-moto-nel-bolognese-morta-coppia-di-centauri_70e66668-1e3c-44fa-aec2-5e568c40c3c7.html" }
+      ]
+    }
+  ]
+}
