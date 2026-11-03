@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-03",
+  "title": "Two women we remember with love",
+  "intro": "Today we remember two women, from Lombardy and Lazio. We share only what trusted sources have told us, and we hold them in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "deborah-aderenti-2026-11-03",
+      "name": "Deborah Aderenti",
+      "age": 39,
+      "town": "Polpenazze",
+      "region": "Lombardy",
+      "tribute": [
+        "Deborah Aderenti was 39 years old and came from Polpenazze, in Lombardy. She is in our thoughts."
+      ],
+      "sources": [
+        {
+          "label": "Giornale di Lombardia (Italian)",
+          "url": "https://www.giornaledilombardia.com/2026/11/calvagese-della-riviera-auto-si-ribalta.html"
+        }
+      ]
+    },
+    {
+      "slug": "a-woman-from-rome-2026-11-03",
+      "name": "A woman from Rome",
+      "age": 74,
+      "town": "Rome",
+      "region": "Lazio",
+      "tribute": [
+        "She was 74 years old and came from Rome, in Lazio. She is in our thoughts."
+      ],
+      "sources": [
+        {
+          "label": "Il Mamilio (Italian)",
+          "url": "https://ilmamilio.it/wp/2026/11/tragico-incendio-in-un-appartamento-moglie-e-marito-trovati-morti"
+        },
+        {
+          "label": "La Notte Online (Italian)",
+          "url": "https://www.lanotteonline.it/2026/11/02/roma-tragedia-a-casal-de-pazzi-due-anziani-trovati-morti-in-casa-dopo-un-incendio-lipotesi-del-lumino-votivo/"
+        }
+      ]
+    }
+  ]
+}
