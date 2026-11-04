@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-04",
+  "title": "Two women we remember with love",
+  "intro": "Today we remember two women, in Brescia and Seriate, Lombardy. We share only what trusted sources have told us, and we hold them in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "a-woman-from-brescia-2026-11-04",
+      "name": "A woman from Brescia",
+      "age": 88,
+      "town": "Brescia",
+      "region": "Lombardy",
+      "tribute": [
+        "She was 88 years old. She is in our thoughts, in Brescia and beyond."
+      ],
+      "sources": [
+        { "label": "Il Giorno (Italian)", "url": "https://www.ilgiorno.it/brescia/cronaca/incidente-mortale-muyugiyn" },
+        { "label": "Giornale di Brescia (Italian)", "url": "https://www.giornaledibrescia.it/cronaca/brescia-anziana-muore-investita-auto-contrada-pozzo-olmo-shhmn1ho" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-seriate-2026-11-04",
+      "name": "A woman from Seriate",
+      "age": 53,
+      "town": "Seriate",
+      "region": "Lombardy",
+      "tribute": [
+        "She was 53 years old. She is in our thoughts, in Seriate and beyond."
+      ],
+      "sources": [
+        { "label": "Prima Bergamo (Italian)", "url": "https://primabergamo.it/cronaca/incidente-mortale-a-seriate-vittima-una-donna-di-53-anni-caduta-dalla-sua-moto/" },
+        { "label": "BergamoNews (Italian)", "url": "https://www.bergamonews.it/2026/11/03/seriate-scontro-con-auto-muore-una-53enne-in-moto-traffico-in-tilt-sulla-circonvallazione/934188/" }
+      ]
+    }
+  ]
+}
