@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-05",
+  "title": "Three women we remember with love",
+  "intro": "Today we remember three women, in Palermo, Lucca and Polla. We share only what trusted sources have told us about their lives, and we hold them in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "serafina-spera-palermo",
+      "name": "Serafina Spera",
+      "age": 65,
+      "town": "Palermo",
+      "region": "Sicily",
+      "tribute": [
+        "Serafina Spera was a primary school teacher in Palermo who had only recently retired. She was originally from Barletta and was married.",
+        "Her colleagues remember a gentle and caring teacher who listened to her pupils and built real bonds with them, with patience even for even the most challenging pupils.",
+        "Her former pupils drew a big heart on the classroom blackboard and wrote notes to her, and one parent wrote that she will remain forever in their hearts."
+      ],
+      "example": "A teacher who listens with patience leaves something in children that stays with them, and her life shows the world how far that kindness reaches.",
+      "sources": [
+        { "label": "LiveSicilia (Italian)", "url": "https://livesicilia.it/serafina-spera-investita-palermo-ricordo-alunni/" },
+        { "label": "Quadro Chiaro (Italian)", "url": "https://www.quadrochiaro.it/palermo-travolta-da-un-autobus-in-via-marinuzzi-muore-serafina-spera-aveva-65-anni/" }
+      ]
+    },
+    {
+      "slug": "giuliana-baudone-lucca",
+      "name": "Giuliana Baudone",
+      "age": 80,
+      "town": "Lucca",
+      "region": "Tuscany",
+      "tribute": [
+        "Giuliana Baudone, 80, lived in the historic centre of Lucca. She was a retired professor who also served her city and her region, as a member of the Lucca city council and of the Tuscany regional council.",
+        "She is remembered in Lucca for her many years of public service."
+      ],
+      "sources": [
+        { "label": "Il Tirreno (Italian)", "url": "https://iltirreno.it/lucca/cronaca/2026/11/05/news/lucca-morta-la-professoressa-baudone-indagine-della-procura-1.100938605" },
+        { "label": "LuccaInDiretta (Italian)", "url": "https://luccaindiretta.it/cronaca/2026/11/04/morta-a-80-anni-lex-consigliera-regionale-e-comunale-giuliana-baudone/527868" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-polla-2026-11-05",
+      "name": "A woman from Polla",
+      "age": 31,
+      "town": "Polla",
+      "region": "Campania",
+      "tribute": [
+        "She was 31 years old and a wife. She is in our thoughts, in Polla and beyond."
+      ],
+      "sources": [
+        { "label": "Salernonotizie (Italian)", "url": "https://www.salernonotizie.it/2026/11/04/polla-donna-di-31-anni-muore-in-casa-sequestrata-la-salma/" },
+        { "label": "Il Mattino (Italian)", "url": "https://www.ilmattino.it/salerno/polla_donna_morta_casa_denuncia_marito-9869130.html" }
+      ]
+    }
+  ]
+}
