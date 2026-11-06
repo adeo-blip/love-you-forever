@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-06",
+  "title": "Two women we remember with love",
+  "intro": "Today we remember two women, in Rome and on the Tuscan coast. We share only what trusted sources have told us, and we hold them in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "a-woman-from-rome-2026-11-06",
+      "name": "A woman from Rome",
+      "age": 26,
+      "town": "Rome",
+      "region": "Lazio",
+      "tribute": [
+        "She was 26 years old and lived in Rome. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Canale Dieci (Italian)", "url": "https://canaledieci.it/2026/11/05/forte-odore-di-gas-nel-palazzo-al-pinciano-donna-di-26-anni-trovata-morta-in-casa/" },
+        { "label": "Abitare a Roma (Italian)", "url": "https://abitarearoma.it/tragedia-a-roma-26enne-trovata-morta-in-casa-ipotesi-asfissia-daria-da-gas-domestico" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-piombino-2026-11-06",
+      "name": "A woman from Piombino",
+      "age": 70,
+      "town": "Piombino",
+      "region": "Tuscany",
+      "tribute": [
+        "She was 70 years old and was travelling across the sea from the island of Elba. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Versilia Today (Italian)", "url": "https://www.versiliatoday.it/2026/11/05/malore-sul-traghetto-dallelba-a-piombino-donna-di-70-anni-muore-dopo-due-arresti-cardiaci/" },
+        { "label": "Toscana Post (Italian)", "url": "https://www.toscanapost.net/cronaca/piombino-passeggera-muore-dopo-malore-sul-traghetto-rientrava-dallisola-delba/" }
+      ]
+    }
+  ]
+}
