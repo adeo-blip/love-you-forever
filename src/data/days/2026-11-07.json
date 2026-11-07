@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-07",
+  "title": "Three women we remember with love",
+  "intro": "Today we remember three women, from Tuscany and Abruzzo. We share only what trusted sources have told us, and we hold them in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "monica-rapaioli-castelnuovo-di-garfagnana",
+      "name": "Monica Rapaioli",
+      "age": 63,
+      "town": "Castelnuovo di Garfagnana",
+      "region": "Tuscany",
+      "tribute": [
+        "Monica Rapaioli was 63 years old. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "La Nazione (Italian)", "url": "https://www.lanazione.it/lucca/cronaca/incidente-muore-garfagnana-ghb7v32w" },
+        { "label": "Telegranducato di Toscana (Italian)", "url": "https://www.telegranducato.it/2026/11/06/incidenti-sulle-strade-nellultimo-perde-la-vita-una-63enne/" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-aulla-2026-11-07",
+      "name": "A woman from Aulla",
+      "age": 78,
+      "town": "Aulla",
+      "region": "Tuscany",
+      "tribute": [
+        "She was 78 years old and was travelling with her husband. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Città della Spezia (Italian)", "url": "https://www.cittadellaspezia.com/2026/11/06/auto-fuori-strada-sulle-lame-muore-una-donna-di-78-anni-680076" },
+        { "label": "Versilia Today (Italian)", "url": "https://www.versiliatoday.it/2026/11/06/auto-fuori-strada-la-moglie-di-78-anni-muore-sul-colpo-il-marito-sotto-shock/" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-scoppito-2026-11-07",
+      "name": "A woman from Scoppito",
+      "age": null,
+      "town": "Scoppito",
+      "region": "Abruzzo",
+      "tribute": [
+        "She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "ANSA (Italian)", "url": "https://ansa.it/abruzzo/notizie/2026/11/06/scontro-tra-auto-e-mezzo-pesante-sulla-statale-17-muore-una-donna_68d17017-6472-4097-b930-45eb26b075f1.html" }
+      ]
+    }
+  ]
+}
