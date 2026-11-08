@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-08",
+  "title": "Four women we remember with love",
+  "intro": "Today we remember four women, from Campania, Piedmont, Liguria and Puglia. We share only what trusted sources have told us, and we hold them in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "a-woman-from-sarno-2026-11-08",
+      "name": "A woman from Sarno",
+      "age": 17,
+      "town": "Sarno",
+      "region": "Campania",
+      "tribute": [
+        "She was 17 years old and lived in Sarno. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Baritalia News (Italian)", "url": "https://www.baritalianews.it/151944/2026/11/07/auto-si-ribalta-nella-notte-e-finisce-contro-un-muro-muore-una-ragazza-di-17-anni-ferito-il-fidanzato/" },
+        { "label": "ANSA (Italian)", "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/07/auto-finisce-fuori-strada-e-ribaltata-morta-17enne-nel-salernitano_4fcc5390-5c4d-4320-a20b-a2953a9ca667.html" }
+      ]
+    },
+    {
+      "slug": "giovanna-bonavia-luserna-san-giovanni",
+      "name": "Giovanna Bonavia",
+      "age": 75,
+      "town": "Luserna San Giovanni",
+      "region": "Piedmont",
+      "tribute": [
+        "Giovanna Bonavia was 75 years old and was with her husband. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Quotidiano Piemontese (Italian)", "url": "https://www.quotidianopiemontese.it/2026/11/08/e-giovanna-bonavia-la-donna-investita-e-uccisa-a-luserna-san-giovanni-era-scesa-dallauto-per-far-parcheggiare-il-marito" },
+        { "label": "Eco del Chisone (Italian)", "url": "https://www.ecodelchisone.it/news/2026-11-07/luserna-investita-auto-muore-una-donna-75-anni-62743" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-genoa-2026-11-08",
+      "name": "A woman from Genoa",
+      "age": 58,
+      "town": "Genoa",
+      "region": "Liguria",
+      "tribute": [
+        "She was 58 years old and lived in the Marassi district. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Primocanale (Italian)", "url": "https://www.primocanale.it/cronaca/73341-incendio-appartamento-casa-donna-morta.html" },
+        { "label": "La Voce di Genova (Italian)", "url": "https://www.lavocedigenova.it/2026/11/07/leggi-notizia/argomenti/cronaca-5/articolo/tragedia-a-marassi-incendio-in-un-appartamento-donna-di-58-anni-trovata-morta.html" }
+      ]
+    },
+    {
+      "slug": "carmela-de-ruocco-galatina",
+      "name": "Carmela De Ruocco",
+      "age": 85,
+      "town": "Galatina",
+      "region": "Puglia",
+      "tribute": [
+        "Carmela De Ruocco was 85 years old. Born in Gragnano, she lived in Milan and was a mother and a grandmother."
+      ],
+      "sources": [
+        { "label": "Il Giorno (Italian)", "url": "https://www.ilgiorno.it/milano/cronaca/incidente-mortale-galatina-lecce-carmela-de-ruocco-milano-ef9x0pmo" },
+        { "label": "Lecce Tomorrow (Italian)", "url": "https://www.leccetomorrow.it/2026/11/07/panda-contro-un-muro-muore-una-donna-ferita-gravemente-la-figlia-e-un-bambino/" }
+      ]
+    }
+  ]
+}
