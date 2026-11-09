@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-09",
+  "title": "Two women we remember with love",
+  "intro": "Today we remember two women, from Lombardy and Abruzzo. We share only what trusted sources have told us, and we hold them in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "emilia-bianchi-palosco",
+      "name": "Emilia Bianchi",
+      "age": 70,
+      "town": "Palosco",
+      "region": "Lombardy",
+      "tribute": [
+        "Emilia Bianchi was 70 years old and lived in Palosco. She was a mother of three. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Prima Treviglio (Italian)", "url": "https://primatreviglio.it/cronaca/omicidio-a-palosco-donna-trovata-morta-in-casa/" },
+        { "label": "Fanpage (Italian)", "url": "https://www.fanpage.it/milano/emilia-bianchi-uccisa-in-casa-con-10-pugnalate-a-palosco-bergamo-fermato-il-figlio-47enne/" }
+      ]
+    },
+    {
+      "slug": "dora-caserio-vasto",
+      "name": "Dora Caserio",
+      "age": 87,
+      "town": "Vasto",
+      "region": "Abruzzo",
+      "tribute": [
+        "Dora Caserio was 87 years old. Her family came from Montenero di Bisaccia, and she was a wife and a mother. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Abruzzo Popolare (Italian)", "url": "https://www.abruzzopopolare.com/2026/11/08/anziana-morta-a-42-giorni-dallincidente-stradale/" }
+      ]
+    }
+  ]
+}
