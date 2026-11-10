@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-10",
+  "title": "Two women we remember with love",
+  "intro": "Today we remember two women, from Veneto and Piedmont. We share only what trusted sources have told us, and we hold them in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "fiorina-festa-bianchet-valdilana",
+      "name": "Fiorina Festa Bianchet",
+      "age": 83,
+      "town": "Valdilana",
+      "region": "Piedmont",
+      "tribute": [
+        "Fiorina Festa Bianchet was 83 years old and lived in Valdilana. She was a retiree, well known and respected in her town. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Newsbiella (Italian)", "url": "https://www.newsbiella.it/2026/11/10/leggi-notizia/argomenti/cronaca-5/articolo/fiamme-in-una-palazzina-di-valdilana-muore-unanziana-il-marito-ricoverato-in-ospedale.html" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-schio",
+      "name": "A woman from Schio",
+      "age": 79,
+      "town": "Schio",
+      "region": "Veneto",
+      "tribute": [
+        "She was 79 years old and lived in Schio. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "il Dolomiti (Italian)", "url": "https://www.ildolomiti.it/cronaca/2026/tragico-incidente-in-centro-marito-e-moglie-investiti-da-unauto-sulle-strisce-pedonali-lei-muore-in-ospedale-grave-luomo" }
+      ]
+    }
+  ]
+}
