@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-11",
+  "title": "Two women we remember with love",
+  "intro": "Today we remember two women, from Lazio and Sicily. We share only what trusted sources have told us, and we hold them in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "rosella-aquilani-viterbo",
+      "name": "Rosella Aquilani",
+      "age": 62,
+      "town": "Viterbo",
+      "region": "Lazio",
+      "tribute": [
+        "Rosella Aquilani was 62 years old and lived in Viterbo, in the Ellera district. She was originally from Vetralla and was a foster grandmother to two children. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "NewTuscia (Italian)", "url": "https://www.newtuscia.it/2026/11/10/tragedia-allellera-dramma-davanti-alla-scuola-dopo-una-lite-per-laffido-dei-nipoti/" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-siculiana",
+      "name": "A woman from Siculiana",
+      "age": 56,
+      "town": "Siculiana",
+      "region": "Sicily",
+      "tribute": [
+        "She was 56 years old and lived in Siculiana. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Corriere di Sciacca (Italian)", "url": "https://www.corrieredisciacca.it/dramma-a-siculiana-donna-di-56-anni-trovata-morta-in-casa/" }
+      ]
+    }
+  ]
+}
