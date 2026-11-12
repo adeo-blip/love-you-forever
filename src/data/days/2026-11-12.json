@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-12",
+  "title": "One woman we remember with love",
+  "intro": "Today we remember one woman from Puglia. We share only what trusted sources have told us, and we hold her in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "geltrude-manzo-taviano",
+      "name": "Geltrude Manzo",
+      "age": 70,
+      "town": "Taviano",
+      "region": "Puglia",
+      "tribute": [
+        "Geltrude Manzo was 70 years old and lived in Taviano, in the province of Lecce. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Il Gallo (Italian)", "url": "https://www.ilgallo.it/cronaca/taviano-piange-giorgio-e-geltrude-sospesa-la-festa-patronale/" }
+      ]
+    }
+  ]
+}
