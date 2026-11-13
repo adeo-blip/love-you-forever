@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-13",
+  "title": "Two women we remember with love",
+  "intro": "Today we remember two women, one from Lombardy and one from Sicily. We share only what trusted sources have told us, and we hold them in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "tatiana-vasilica-marcu-viganado",
+      "name": "Tatiana Vasilica Marcu",
+      "age": 46,
+      "town": "Viganò",
+      "region": "Lombardy",
+      "tribute": [
+        "Tatiana Vasilica Marcu was 46 years old and lived in Viganò, in the province of Lecco. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Fanpage (Italian)", "url": "https://www.fanpage.it/milano/limpatto-sul-cofano-e-la-caduta-a-terra-donna-investita-e-uccisa-nel-lecchese-automobilista-denunciato/" },
+        { "label": "Prima Lecco (Italian)", "url": "https://primalecco.it/cronaca/investita-e-uccisa-lungo-via-lecco-indagano-i-carabinieri/" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-capo-dorlando",
+      "name": "A woman from Capo d'Orlando",
+      "age": 55,
+      "town": "Capo d'Orlando",
+      "region": "Sicily",
+      "tribute": [
+        "She was 55 years old and lived in Capo d'Orlando, in the province of Messina. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "98zero (Italian)", "url": "https://98zero.com/1630210-incidente-sulla-sp-146-ponte-naso-sinagra-morta-una-donna-di-capo-dorlando" }
+      ]
+    }
+  ]
+}
