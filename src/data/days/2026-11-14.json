@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-14",
+  "title": "Three women we remember with love",
+  "intro": "Today we remember three women from Veneto, Lombardy and Basilicata. We share only what trusted sources have told us, and we hold them in our thoughts with gratitude.",
+  "women": [
+    {
+      "slug": "carlina-besaggio-casale-di-scodosia",
+      "name": "Carlina Besaggio",
+      "age": 71,
+      "town": "Casale di Scodosia",
+      "region": "Veneto",
+      "tribute": [
+        "Carlina Besaggio was 71 years old and lived in Casale di Scodosia, in the province of Padua. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Il Mattino di Padova (Italian)", "url": "https://www.mattinopadova.it/cronaca/scontro-fra-due-auto-a-castelbaldo-morta-una-donna-kpgyrhju" },
+        { "label": "AmeVe (Italian)", "url": "https://ameve.eu/tragedia-a-castelbaldo-morta-una-donna-nello-scontro-frontale/" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-calvatone",
+      "name": "A woman from Calvatone",
+      "age": 74,
+      "town": "Calvatone",
+      "region": "Lombardy",
+      "tribute": [
+        "She was 74 years old and lived in Calvatone, in the province of Cremona. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Il Giorno (Italian)", "url": "https://www.ilgiorno.it/cremona/cronaca/incidente-frontale-sulla-statale-a-calvatone-morta-donna-di-74-anni-u6fcmd5v" }
+      ]
+    },
+    {
+      "slug": "a-woman-from-grassano",
+      "name": "A woman from Grassano",
+      "age": 72,
+      "town": "Grassano",
+      "region": "Basilicata",
+      "tribute": [
+        "She was 72 years old and came from Grassano, in the province of Matera. She is in our thoughts."
+      ],
+      "sources": [
+        { "label": "Ufficio Stampa Basilicata (Italian)", "url": "https://ufficiostampabasilicata.it/2026/11/13/matera-incidente-sulla-sp-8-morta-una-donna/" },
+        { "label": "Antenna Sud (Italian)", "url": "https://www.antennasud.com/matera-incidente-sulla-sp-8-morta-una-donna/" }
+      ]
+    }
+  ]
+}
